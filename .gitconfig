@@ -1,0 +1,15 @@
+[core]
+	excludesfile = /Users/leon.lei/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+	tree = log --graph --date=short --pretty=format:\"%C(auto)%h%d %C(blue)%an %C(green)%ad %C(reset)%s\"
+[user]
+	name = 
+	email = 
+[commit]
+	template = /Users/leon.lei/.stCommitMsg
