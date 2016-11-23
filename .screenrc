@@ -49,11 +49,9 @@ bindkey ^[0 select 10
 bindkey ^[- select 11
 bindkey ^[= select 12
 
-# using Ctrl+Left & Ctrl+Right
-bindkey ^[[1;5D prev
-bindkey ^[[1;5C next
-bindkey \033[D prev
-bindkey \033[C next
+# using Shift+Left & Shift+Right
+bindkey ^[[1;2D prev
+bindkey ^[[1;2C next
 
 # Ctrl-a d
 # bind F7 to detach screen session (to background)

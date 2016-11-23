@@ -1,4 +1,5 @@
 #!/bin/bash
 
-cp -r $(dirname $0)/.* $HOME/
+rsync -av --exclude=.git --exclude=install.sh $(dirname $0)/ $HOME/
 
+brew install bash-completion
