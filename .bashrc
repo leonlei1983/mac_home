@@ -14,3 +14,4 @@ set completion-ignore-case on
 [ -f ~/.git-prompt.sh ] && . ~/.git-prompt.sh
 [ -f ~/.git-completion.bash ] && . ~/.git-completion.bash
 
+export COPYFILE_DISABLE=1
